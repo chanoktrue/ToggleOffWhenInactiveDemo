@@ -8,17 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Binding var isOn: Bool
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(isOn ? "On" : "Off")
+            
+            Toggle(isOn: $isOn, label: {
+                Text("Label")
+            })
+            .labelsHidden()
+            .onChange(of: isOn) { newValue in
+                        if newValue {
+                            print("Toggle is On")
+                        } else {
+                            print("Toggle is Off")
+                        }
+                    }
         }
         .padding()
+       
     }
 }
 
+
 #Preview {
-    ContentView()
+    ContentView(isOn: .constant(false))
 }

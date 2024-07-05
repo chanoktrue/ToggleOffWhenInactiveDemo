@@ -11,6 +11,7 @@
 		CD5F61E12C37D01B00E9AE62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5F61E02C37D01B00E9AE62 /* ContentView.swift */; };
 		CD5F61E32C37D01D00E9AE62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5F61E22C37D01D00E9AE62 /* Assets.xcassets */; };
 		CD5F61E62C37D01D00E9AE62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5F61E52C37D01D00E9AE62 /* Preview Assets.xcassets */; };
+		CD5F61F12C37F57E00E9AE62 /* Animation1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5F61F02C37F57E00E9AE62 /* Animation1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CD5F61E02C37D01B00E9AE62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD5F61E22C37D01D00E9AE62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD5F61E52C37D01D00E9AE62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD5F61F02C37F57E00E9AE62 /* Animation1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				CD5F61DE2C37D01B00E9AE62 /* ToggleDemoApp.swift */,
 				CD5F61E02C37D01B00E9AE62 /* ContentView.swift */,
+				CD5F61F02C37F57E00E9AE62 /* Animation1.swift */,
 				CD5F61E22C37D01D00E9AE62 /* Assets.xcassets */,
 				CD5F61E42C37D01D00E9AE62 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD5F61F12C37F57E00E9AE62 /* Animation1.swift in Sources */,
 				CD5F61E12C37D01B00E9AE62 /* ContentView.swift in Sources */,
 				CD5F61DF2C37D01B00E9AE62 /* ToggleDemoApp.swift in Sources */,
 			);
